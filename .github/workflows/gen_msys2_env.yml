@@ -18,7 +18,7 @@ jobs:
       run: |
         export BUILD_TAG=build-$(date -u +'%Y%m%d%H%M')
         echo "BUILD_TAG=$BUILD_TAG" >> $GITHUB_ENV
-    - name: Install MSYS2 & Dependencies
+    - name: Install MSYS2 and Dependencies
       run: |
         choco install msys2 --no-progress
         C:\tools\msys64\usr\bin\bash.exe -lc "pacman --needed --noconfirm -S \
