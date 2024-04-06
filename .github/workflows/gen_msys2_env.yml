@@ -34,6 +34,15 @@ jobs:
         mingw-w64-x86_64-SDL2 \
         mingw-w64-x86_64-libsamplerate \
         python3 \
+        mingw-w64-x86_64-gtk3 \
+        mingw-w64-x86_64-libssh2 \
+        mingw-w64-x86_64-gcc \
+        mingw-w64-x86_64-curl \
+        mingw-w64-x86_64-libtasn1 \
+        mingw-w64-x86_64-nettle \
+        mingw-w64-x86_64-ncurses \
+        mingw-w64-x86_64-gnutls \
+        mingw-w64-x86_64-ninja \
         "
         C:\tools\msys64\usr\bin\bash.exe -lc "pacman -Scc --noconfirm"
     - name: Compress MSYS2 Environment
