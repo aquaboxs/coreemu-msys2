@@ -43,6 +43,7 @@ jobs:
         mingw-w64-x86_64-ncurses \
         mingw-w64-x86_64-gnutls \
         mingw-w64-x86_64-ninja \
+        mingw-w64-x86_64-meson \
         "
         C:\tools\msys64\usr\bin\bash.exe -lc "pacman -Scc --noconfirm"
     - name: Compress MSYS2 Environment
